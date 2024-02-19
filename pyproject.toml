@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ip-checker-api"
+version = "0.1.0"
+description = ""
+authors = ["Mark Wayne Buncaras Menorca <marcuwynu23@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ip_checker_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
